@@ -18,7 +18,7 @@
 
 html 
 {
-    background-image: url("../images/websitebackground.png");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -246,6 +246,12 @@ body
   margin-right: 8px;
   position: relative;
   top: 120px;
+}
+
+.image-grid img
+{
+    width: 420px;
+    height: 420px;
 }
 
 .image-grid a:nth-of-type(2n) {
